@@ -35,7 +35,7 @@ plot( x = unique(data$interval) ,y = meansInIntervals, "l", xlab = "Interval",
 # find maximum interval. which.max function finds an index of the maximun value
 unique(data$interval)[which.max(meansInIntervals)]
 ```
-As one can see from the graph, the peek of walking activity is in the morning. On average, people walk the most in 8:35.
+As one can see from the graph, the peek of walking activity is in the morning. On average, people walk the most in 8:35. 
 
 
 
